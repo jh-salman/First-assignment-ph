@@ -1,0 +1,142 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Work Sans', sans-serif;
+
+}
+
+
+header{
+    background-image: url(images/banner/banner2.png);
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+header .heading{
+    text-align: right;
+    margin: 0 150px;
+}
+header .heading h1{
+    font-size: 65px;
+    font-weight: 700;
+
+}
+header .heading p{
+    padding: 15px 0;
+    color: #444343;
+
+}
+header .heading button{
+    padding: 20px 25px;
+    color: #fff;
+    background: #f15b22;
+    font-size: 20px;
+    font-weight: 600;
+    border: none;
+    border-radius: 5px;
+}
+
+
+/* header style end  */
+
+
+/* main section style start */
+
+main{
+    padding: 0 150px;
+}
+main .previous{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+main .previous-contents{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 70px;
+}
+main .previous-contents .left img{
+    width: 450px;
+}
+main .previous-contents .right{
+    text-align: left;
+}
+.section-title{
+    font-size: 40px;
+    font-weight: 700;
+}
+.section-pera{
+    color: #444343;
+    padding: 15px 0;
+}
+span{
+    color: green;
+}
+main .previous-contents .right .previous-content ul li{
+    list-style: none;
+    padding: 2px 0;
+    color: #444343;
+}
+
+/* previous section styles end */
+
+/* My plan section styles start*/
+
+main .my-plan{
+    padding: 130px 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+main .my-plan .my-plan-contents h1{
+    padding: 20px;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 700;
+}
+main .my-plan .my-plan-contents .top{
+    text-align: center;
+    display: flex;
+    align-items:center;
+    justify-content: space-between;
+    padding: 30px;
+}
+main .my-plan .my-plan-contents .top .content{
+    margin: 0 35px;
+}
+main .my-plan .my-plan-contents .top .content .sub-title{
+    font-size: 25px;
+    font-weight: 700;
+    padding:15px 0;
+}
+main .my-plan .my-plan-contents .top .content p{
+    font-size: 19px;
+    color: #444343;
+}
+
+main .my-plan .my-plan-contents .bottom-banner{
+    height: 200px;
+    background-image: linear-gradient(90deg, rgb(241, 91, 34) , rgba(255, 255, 255, 0.4)), url(images/watch.png);
+    padding: 50px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    margin-top: 30px;
+
+
+}
+main .my-plan .my-plan-contents .bottom-banner .banner-content .banner-title{
+    font-size: 40px;
+    color: #fff;
+    font-weight: 700;
+}
+main .my-plan .my-plan-contents .bottom-banner .banner-content .bottom-banner-btn{
+    padding: 20px 25px;
+}
