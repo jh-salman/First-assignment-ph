@@ -31,7 +31,7 @@ header .heading p{
     color: #444343;
 
 }
-header .heading button{
+.header-btn{
     padding: 20px 25px;
     color: #fff;
     background: #f15b22;
@@ -136,7 +136,69 @@ main .my-plan .my-plan-contents .bottom-banner .banner-content .banner-title{
     font-size: 40px;
     color: #fff;
     font-weight: 700;
+
 }
-main .my-plan .my-plan-contents .bottom-banner .banner-content .bottom-banner-btn{
-    padding: 20px 25px;
+.btn{
+    padding: 20px 35px;
+    background: #fff;
+    color: #f15b22;
+    font-size: 20px;
+    font-weight: 600;
+    border: none;
+    border-radius: 5px;
+    margin-top: 15px;
 }
+
+
+                 /* my plan section style end  */
+
+
+                 /* footer styles start  */
+
+footer{
+    background: #000;
+    padding: 100px 150px;
+    color: #fff;
+}
+
+footer .footer-contents{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+footer .footer-contents .left h1{
+    font-size: 45px;
+    font-weight: 700;
+    padding: 10px 0;
+}
+footer .footer-contents .left P{
+    padding: 10px 0;
+}
+footer .footer-contents .left .social-media img{
+    padding-top: 10px;
+    padding-right: 5px;
+}
+
+footer .footer-contents .right h1{
+    font-size: 25px;
+    font-weight: 600;
+    padding-bottom: 20px;
+
+}
+footer .footer-contents .right input{
+    outline: none;
+    border: 1px solid #fff;
+    padding: 17px 25px;
+    width: 325px;
+    background:transparent;
+    border-radius: 5px;
+}
+footer .footer-contents .right input::placeholder{
+    color: #fff;
+    font-size: 18px;
+}
+
+
+         /* footer section styles end  */
